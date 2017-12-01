@@ -53,7 +53,6 @@ public class FXMLDocumentController implements Initializable {
     private void btnMilho(ActionEvent event) throws IOException{
         System.out.println("ops");
         loadScreen("FXMLteste.fxml");
- //      loadScreen();
         
     }
     
@@ -70,9 +69,9 @@ public class FXMLDocumentController implements Initializable {
     
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        label.setText(" Você vive na época Medieval, em um pacata aldeia de agricultores e caçadores.\n" +
-" Sua família planta Milho e Arroz, mas você e seu pai, também caçam na floresta.\n" +
-" Na manhã de Segunda Feira você acorda e vai:");        
+        label.setText(" Você vive na idade média, em uma pacata\n aldeia de agricultores e caçadores.\n" +
+" Sua família planta Milho e Arroz, mas\n você e seu pai, também caçam na floresta.\n" +
+" Na manhã de Segunda Feira você acorda\n e vai para a:");        
     }
     
     
