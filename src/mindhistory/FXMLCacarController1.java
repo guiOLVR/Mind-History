@@ -12,17 +12,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
 
 /**
  *
  * @author gui_m
  */
-public class FXMLMilhoController implements Initializable {
+public class FXMLCacarController1 implements Initializable {
     
     private FXMLLoader fXMLLoader;
     
@@ -38,9 +35,9 @@ public class FXMLMilhoController implements Initializable {
     
     
     @FXML
-    private void handleButtonAction(ActionEvent event) throws IOException {
-        System.out.println("cacar");
-        loadScreen("FXMLCacar1.fxml");
+    private void handleButtonAction(ActionEvent event) {
+        System.out.println("You clicked me!");
+        label.setText("Hello World!");
     }
     
     @FXML
@@ -52,7 +49,7 @@ public class FXMLMilhoController implements Initializable {
     @FXML
     private void btnMilho(ActionEvent event) throws IOException{
         System.out.println("ops");
-        loadScreen("FXMLMilho1.fxml");
+        loadScreen("FXMLteste.fxml");
         
     }
     
@@ -69,11 +66,12 @@ public class FXMLMilhoController implements Initializable {
     
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        label.setText(" Você toma café da manhã, e logo depois, sai\n juntamente com seu pai e seu irmãozinho.\n" +
-" Chegando no milharal, vocês começam a \ncolher as espigas enquanto seu irmão brinca\n "
-                + "com um gatinho que apareceu por ali\n" +
-" Enfim chega a hora do almoço e seu pai pede\n para você chamar seu irmãozinho, mas você\n"
-                + "fica surpreso por não notar que ele não está\n mais ali, então você: ");        
+        label.setText(" Você pega seu arco e flechas e a sua velha\n"
+                + "espada que está começando a enferrujar, e \nsai em direção a floresta.\n "
+                + "Chegando na floresta você fica por 2 horas\n"
+                + "andando pelo seu local habitual de caça, mas \n"
+                + "estranhamente você não viu nenhum animal,\n"
+                + " nem um passarinho que seja.\n Então você decide:");        
     }
     
     
