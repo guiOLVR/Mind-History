@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author gui_m
  */
-public class FXMLDocumentController implements Initializable {
+public class FXMLMilhoController implements Initializable {
     
     private FXMLLoader fXMLLoader;
     
@@ -52,7 +52,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void btnMilho(ActionEvent event) throws IOException{
         System.out.println("ops");
-        loadScreen("FXMLMilho1.fxml");
+        loadScreen("FXMLteste.fxml");
         
     }
     
