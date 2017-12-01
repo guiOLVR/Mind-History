@@ -69,9 +69,11 @@ public class FXMLMilhoController implements Initializable {
     
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        label.setText(" Você vive na idade média, em uma pacata\n aldeia de agricultores e caçadores.\n" +
-" Sua família planta Milho e Arroz, mas\n você e seu pai, também caçam na floresta.\n" +
-" Na manhã de Segunda Feira você acorda\n e vai para a:");        
+        label.setText(" Você toma café da manhã, e logo depois, sai\n juntamente com seu pai e seu irmãozinho.\n" +
+" Chegando no milharal, vocês começam a \ncolher as espigas enquanto seu irmão brinca\n "
+                + "com um gatinho que apareceu por ali\n" +
+" Enfim chega a hora do almoço e seu pai pede\n para você chamar seu irmãozinho, mas você\n"
+                + "fica surpreso por não notar que ele não está\n mais ali, então você: ");        
     }
     
     

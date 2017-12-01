@@ -29,7 +29,7 @@
             <Rectangle2D />
          </viewport>
       </ImageView>
-      <Label fx:id="label" layoutX="267.0" layoutY="79.0" onDragDetected="#handleButtonAction" prefHeight="315.0" prefWidth="493.0" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="267.0" AnchorPane.rightAnchor="254.0" AnchorPane.topAnchor="79.0">
+      <Label fx:id="label" layoutX="262.0" layoutY="79.0" onDragDetected="#handleButtonAction" prefHeight="315.0" prefWidth="516.0" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="79.0">
          <font>
             <Font name="Comic Sans MS" size="24.0" />
          </font>
